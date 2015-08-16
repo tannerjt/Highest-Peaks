@@ -1,0 +1,57 @@
+html, body {
+	padding : 0;
+	margin : 0;
+}
+#viewDiv {
+	height : 100%;
+	width : 100%;
+}
+#mapcol {
+	height : 100%;
+	margin: 0;
+	padding: 0;
+}
+#peakCol {
+	height : 100%;
+	margin: 0;
+	padding: 0;
+	overflow-y : scroll;
+}
+.container-fluid {
+	margin: 0;
+	padding: 0;
+}
+.row-fluid {
+	margin: 0;
+	padding: 0;
+}
+#peakList {
+	margin: 0;
+	padding: 0;
+}
+.list-item {
+	list-style : none;
+	margin : 0;
+	padding : 15px 10px;
+	color : #fff;
+}
+.peak-title {
+	font-size : 15px;
+}
+a:visited, a:link, a:hover, a:active{
+	color : #FFB03B;
+}
+#peakList li {
+	background : #1F455C;
+}
+#peakList li:nth-child(odd) {
+	background : #005DA2;
+}
+#peakList #title {
+	background : #468966;
+	padding: 5px 10px;
+}
+#title h2 {
+	margin: 0;
+	padding-top : 10px;
+}

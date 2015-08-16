@@ -9,19 +9,26 @@
 		<script src="//code.jquery.com/jquery.js"></script>
 		<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 		<script src="https://js.arcgis.com/4.0beta1/"></script>
-		<style>
-			html, body {
-				padding : 0;
-				margin : 0;
-			}
-			#viewDiv {
-				height : 100%;
-				width : 100%;
-			}
-		</style>
+		<link rel="stylesheet" href="./css/main.css">
 	</head>
 	<body>
-	<div id="viewDiv"></div>
+	<div class="container-fluid">
+		<div class="row-fluid">
+			<div id="peakCol" class="col-sm-5 col-md-3">
+				<ul id="peakList">
+					<li id="title" class="list-item">
+						<h2>North American Peaks</h2>
+						<p>A visual tour of the 10 highest peaks of greater North America.  Built using the <a href="https://developers.arcgis.com/javascript/beta/" target ="_blank">Esri JSAPI 4.0 Beta 1</a>. <br><i>-created by <a href="http://tannergeo.com/">TannerGeo</a></i></p>
+					</li>
+				</ul>
+			</div>
+			<div id="mapcol" class="col-sm-7 col-md-9">
+				<div id="viewDiv">
+					
+				</div>
+			</div>
+		</div>
+	</div>
 	<script src="./js/main.js"></script>
 	</body>
 </html>
