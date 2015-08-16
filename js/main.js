@@ -121,7 +121,7 @@ require([
 		view.animateTo({tilt : curTilt += incdec, heading : view.camera.heading += 1}).then(function (r) {
 			setTimeout(function () {
 				initiateTour(curTilt);
-			}, 250);
+			}, 500);
 		})
 	}
 
