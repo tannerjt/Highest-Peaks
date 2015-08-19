@@ -130,7 +130,11 @@ require([
 			latitude : mountains[id].location[0],
 			longitude : mountains[id].location[1]
 		});
-		view.animateTo({center : point, scale : 150000});
+		view.animateTo({center : point, scale : 1500000}).then(
+			function () {
+				view.animateTo({scale : 15000});
+			}
+		);
 	}
 	
 });
