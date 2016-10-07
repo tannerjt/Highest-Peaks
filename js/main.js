@@ -83,7 +83,7 @@ require([
 		});
 		view.animateTo({center : point, scale : 1500000}).then(
 			function () {
-				view.animateTo({scale : 15000});
+				view.animateTo({scale : 250000});
 			}
 		);
 	}
